@@ -6,6 +6,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("idf.artemis.testngspringexample")
 public class SpringConfig {
-
-
 }
