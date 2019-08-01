@@ -14,11 +14,11 @@ public class DocumentationPageTest extends BaseTest {
   @Autowired
   private HomePage homePage;
 
-  @Test
+  @Test(description = "Check that content length of table is correct")
   public void checkContentLengthOfTable() {
     int textContentLength = homePage.goToDocumentationPage()
         .getTextContentLength();
-    assertEquals(textContentLength, 1539);
+    assertEquals(textContentLength, 1587);
   }
 
 }

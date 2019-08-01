@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="TestNG site suite">
+    <test thread-count="5" verbose="0" name="TestNG site test">
+        <classes>
+            <class name="idf.artemis.testngspringexample.tests.HomePageTest"/>
+            <class name="idf.artemis.testngspringexample.tests.DocumentationPageTest"/>
+        </classes>
+    </test> <!-- TestNG site test -->
+</suite> <!-- TestNG site suite -->
